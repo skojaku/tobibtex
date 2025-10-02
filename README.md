@@ -2,6 +2,8 @@
 
 This repository contains an Alfred workflow and a standalone bash script to fetch BibTeX entries for academic papers using either a DOI or a title.
 
+![](./demo.gif)
+
 ## Alfred Workflow (Recommended)
 
 The primary way to use this tool is through the Alfred workflow. It allows you to fetch BibTeX entries directly from Alfred's search bar.
@@ -9,7 +11,10 @@ The primary way to use this tool is through the Alfred workflow. It allows you t
 ### Installation
 
 1.  **Download the workflow:**
-    - Download the `toBibtex.alfredworkflow` file from this repository.
+
+    [![Download Workflow](https://img.shields.io/badge/Download-Alfred%20Workflow-blue?style=for-the-badge&logo=alfred)](https://github.com/skojaku/tobibtex/raw/main/toBibtex.alfredworkflow)
+
+    Click the button above or download the `toBibtex.alfredworkflow` file from this repository.
 2.  **Install the workflow:**
     - Double-click the downloaded `.alfredworkflow` file to install it in Alfred.
 3.  **Install dependencies:**
@@ -34,11 +39,11 @@ Once installed, you can use the keyword `bib` in Alfred to trigger the workflow.
 
 -   **Fetch by DOI:**
     ```
-    bib 10.1145/3511808.3557220
+    bib 10.1088/1367-2630/16/6/063023
     ```
 -   **Fetch by Title:**
     ```
-    bib Promptagator Few-shot dense retrieval from 8 examples
+    bib Random walks and diffusion on networks
     ```
 
 The fetched BibTeX entry will be copied to your clipboard, and you'll receive a notification.
