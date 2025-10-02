@@ -12,11 +12,21 @@ The primary way to use this tool is through the Alfred workflow. It allows you t
     - Download the `toBibtex.alfredworkflow` file from this repository.
 2.  **Install the workflow:**
     - Double-click the downloaded `.alfredworkflow` file to install it in Alfred.
-3.  **Install `bibtex-tidy`:**
-    - The workflow requires `bibtex-tidy` to clean up the BibTeX output. You can install it using `npm`:
-      ```bash
-      npm install -g bibtex-tidy
-      ```
+3.  **Install dependencies:**
+    The workflow requires several command-line tools:
+
+    -   **`bibtex-tidy`**: For formatting the BibTeX output
+        ```bash
+        npm install -g bibtex-tidy
+        ```
+    -   **`jq`**: For parsing JSON data. On macOS, install using [Homebrew](https://brew.sh/):
+        ```bash
+        brew install jq
+        ```
+        For other systems, see the [official `jq` installation guide](https://stedolan.github.io/jq/download/).
+    -   **`curl`**: Usually pre-installed on macOS.
+    -   **`python3`**: Usually pre-installed on macOS.
+    -   **`pbcopy` & `osascript`**: Pre-installed on macOS for clipboard and notification support.
 
 ### Usage
 
