@@ -4,6 +4,11 @@ This repository contains an Alfred workflow and a standalone bash script to fetc
 
 ![](./demo.gif)
 
+If you like the tool, a little acknowledgement would be a great encouragement for me to develop tools like this!
+
+- [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/sadamorikojaku)
+- [![Bluesky](https://img.shields.io/badge/Bluesky-@skojaku-blue)](https://bsky.app/profile/skojaku.bsky.social)
+
 ## Alfred Workflow (Recommended)
 
 The primary way to use this tool is through the Alfred workflow. It allows you to fetch BibTeX entries directly from Alfred's search bar.
